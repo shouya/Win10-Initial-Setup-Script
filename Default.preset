@@ -11,7 +11,7 @@ RequireAdmin
 ### Privacy Tweaks ###
 DisableTelemetry                # EnableTelemetry
 DisableWiFiSense                # EnableWiFiSense
-# DisableSmartScreen            # EnableSmartScreen
+DisableSmartScreen            # EnableSmartScreen
 DisableWebSearch                # EnableWebSearch
 DisableAppSuggestions           # EnableAppSuggestions
 DisableActivityHistory          # EnableActivityHistory
@@ -24,11 +24,11 @@ DisableAdvertisingID            # EnableAdvertisingID
 DisableWebLangList              # EnableWebLangList
 DisableCortana                  # EnableCortana
 DisableErrorReporting           # EnableErrorReporting
-# SetP2PUpdateLocal             # SetP2PUpdateInternet          # SetP2PUpdateDisable
+SetP2PUpdateLocal             # SetP2PUpdateInternet          # SetP2PUpdateDisable
 DisableDiagTrack                # EnableDiagTrack
 DisableWAPPush                  # EnableWAPPush
 # EnableClearRecentFiles        # DisableClearRecentFiles
-# DisableRecentFiles            # EnableRecentFiles
+DisableRecentFiles            # EnableRecentFiles
 
 ### Security Tweaks ###
 # SetUACLow                     # SetUACHigh
@@ -43,8 +43,8 @@ SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 # DisableNetDevicesAutoInst     # EnableNetDevicesAutoInst
 # DisableFirewall               # EnableFirewall
 # HideDefenderTrayIcon          # ShowDefenderTrayIcon
-# DisableDefender               # EnableDefender
-# DisableDefenderCloud          # EnableDefenderCloud
+DisableDefender               # EnableDefender
+DisableDefenderCloud          # EnableDefenderCloud
 # EnableCtrldFolderAccess       # DisableCtrldFolderAccess
 # EnableCIMemoryIntegrity       # DisableCIMemoryIntegrity
 # EnableDefenderAppGuard        # DisableDefenderAppGuard
@@ -76,18 +76,21 @@ DisableAutorun                  # EnableAutorun
 # DisableSwapFile               # EnableSwapFile
 # DisableNTFSLastAccess         # EnableNTFSLastAccess
 # SetBIOSTimeUTC                # SetBIOSTimeLocal
-# EnableHibernation             # DisableHibernation
+EnableHibernation             # DisableHibernation
 # DisableSleepButton            # EnableSleepButton
 # DisableSleepTimeout           # EnableSleepTimeout
-# DisableFastStartup            # EnableFastStartup
+# DisableFastStartup            
+EnableFastStartup
 # DisableAutoRebootOnCrash      # EnableAutoRebootOnCrash
 
 ### UI Tweaks ###
 DisableActionCenter             # EnableActionCenter
-DisableLockScreen               # EnableLockScreen
+# DisableLockScreen               
+EnableLockScreen
 # DisableLockScreenRS1          # EnableLockScreenRS1
 HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
-HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
+# HideShutdownFromLockScreen      
+ShowShutdownOnLockScreen
 # DisableAeroShake              # EnableAeroShake
 DisableStickyKeys               # EnableStickyKeys
 ShowTaskManagerDetails          # HideTaskManagerDetails
@@ -106,12 +109,13 @@ DisableNewAppPrompt             # EnableNewAppPrompt
 # SetControlPanelSmallIcons     # SetControlPanelLargeIcons     # SetControlPanelCategories
 DisableShortcutInName           # EnableShortcutInName
 # HideShortcutArrow             # ShowShortcutArrow
-SetVisualFXPerformance          # SetVisualFXAppearance
+# SetVisualFXPerformance
+SetVisualFXAppearance
 # EnableTitleBarColor           # DisableTitleBarColor
 # EnableDarkTheme               # DisableDarkTheme
 # AddENKeyboard                 # RemoveENKeyboard
 # EnableNumlock                 # DisableNumlock
-# DisableEnhPointerPrecision    # EnableEnhPointerPrecision
+DisableEnhPointerPrecision    # EnableEnhPointerPrecision
 # SetSoundSchemeNone            # SetSoundSchemeDefault
 # DisableStartupSound           # EnableStartupSound
 # DisableChangingSoundScheme    # EnableChangingSoundScheme
@@ -131,12 +135,16 @@ HideQuickAccess                 # ShowQuickAccess
 ShowThisPCOnDesktop             # HideThisPCFromDesktop
 # ShowUserFolderOnDesktop       # HideUserFolderFromDesktop
 # ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
-HideDesktopFromThisPC           # ShowDesktopInThisPC
-# HideDesktopFromExplorer       # ShowDesktopInExplorer
+# HideDesktopFromThisPC        
+ShowDesktopInThisPC
+# HideDesktopFromExplorer       
+ShowDesktopInExplorer
 HideDocumentsFromThisPC         # ShowDocumentsInThisPC
 # HideDocumentsFromExplorer     # ShowDocumentsInExplorer
-HideDownloadsFromThisPC         # ShowDownloadsInThisPC
-# HideDownloadsFromExplorer     # ShowDownloadsInExplorer
+# HideDownloadsFromThisPC         
+ShowDownloadsInThisPC
+# HideDownloadsFromExplorer     
+ShowDownloadsInExplorer
 HideMusicFromThisPC             # ShowMusicInThisPC
 # HideMusicFromExplorer         # ShowMusicInExplorer
 HidePicturesFromThisPC          # ShowPicturesInThisPC
@@ -147,7 +155,8 @@ Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
 # Hide3DObjectsFromExplorer     # Show3DObjectsInExplorer
 # HideIncludeInLibraryMenu      # ShowIncludeInLibraryMenu
 # HideGiveAccessToMenu          # ShowGiveAccessToMenu
-# HideShareMenu                 # ShowShareMenu
+# HideShareMenu                
+ShowShareMenu
 # DisableThumbnails             # EnableThumbnails
 DisableThumbnailCache           # EnableThumbnailCache
 DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
@@ -167,8 +176,8 @@ DisableIEFirstRun               # EnableIEFirstRun
 # UninstallInternetExplorer     # InstallInternetExplorer
 # UninstallWorkFolders          # InstallWorkFolders
 # UninstallPowerShellV2         # InstallPowerShellV2
-# InstallLinuxSubsystem         # UninstallLinuxSubsystem
-# InstallHyperV                 # UninstallHyperV
+InstallLinuxSubsystem         # UninstallLinuxSubsystem
+InstallHyperV                 # UninstallHyperV
 # InstallNET23                  # UninstallNET23
 SetPhotoViewerAssociation       # UnsetPhotoViewerAssociation
 AddPhotoViewerOpenWith          # RemovePhotoViewerOpenWith
